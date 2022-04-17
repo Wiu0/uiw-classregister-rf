@@ -1,4 +1,4 @@
-package com.uiw.repository;
+package com.uiw.repository.register_class.postgres;
 
 import com.uiw.entity.StudentEntity;
 

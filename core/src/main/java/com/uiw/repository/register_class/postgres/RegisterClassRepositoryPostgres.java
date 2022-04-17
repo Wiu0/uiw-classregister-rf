@@ -1,8 +1,7 @@
-package com.uiw.repository.postgres;
+package com.uiw.repository.register_class.postgres;
 
 import com.uiw.entity.StudentEntity;
 import com.uiw.enums.StudentStatus;
-import com.uiw.repository.RegisterClassRepository;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.Arrays;

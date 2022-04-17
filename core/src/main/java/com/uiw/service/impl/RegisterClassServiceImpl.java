@@ -2,7 +2,7 @@ package com.uiw.service.impl;
 
 import com.uiw.entity.StudentEntity;
 import com.uiw.mapper.RegisterClassStudentMapper;
-import com.uiw.repository.RegisterClassRepository;
+import com.uiw.repository.register_class.postgres.RegisterClassRepository;
 import com.uiw.service.RegisterClassService;
 import com.uiw.vo.StudentVO;
 
