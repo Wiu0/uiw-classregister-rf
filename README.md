@@ -4,6 +4,25 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
+## Local Database for easy and fast deployment
+
+Go to **_core/docker/postgres_** and take a look at docker-compose.yml.
+
+Notice there are two environment variables needed  **_${DB_USER}_** and **_${DB_PASS}_**. You can set them int the .env file
+located in the same directory as the docker-compose.yml file or set them in the command line or in the system environment.
+
+Go to **_core/docker/postgres/script_** and take a look at the .sql files.
+
+Now let's go to **_core/docker/postgres_** and run the following commands:
+```shell script
+docker-compose up
+```
+OR
+```shell script
+docker-compose up -d
+```
+
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:

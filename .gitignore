@@ -163,3 +163,9 @@ nb-configuration.xml
 ## OS X
 ##############################
 .DS_Store
+
+##############################
+## Others
+##############################
+core/docker/postgres/.env
+core/docker/postgres/postgres-data
