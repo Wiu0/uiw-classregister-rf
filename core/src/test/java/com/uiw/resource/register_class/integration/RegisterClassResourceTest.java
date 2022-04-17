@@ -1,6 +1,8 @@
-package com.uiw.resource;
+package com.uiw.resource.register_class.integration;
 
+import com.uiw.resource.register_class.testcontainers.deployer.DeployerResourceLifecycleManagerRegisterClass;
 import com.uiw.vo.StudentVO;
+import io.quarkus.test.common.QuarkusTestResource;
 import io.quarkus.test.junit.QuarkusTest;
 import io.vertx.core.json.JsonArray;
 import io.vertx.core.json.JsonObject;
@@ -17,6 +19,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.is;
 
 @QuarkusTest
+@QuarkusTestResource(DeployerResourceLifecycleManagerRegisterClass.class)
 class RegisterClassResourceTest {
 
     @ConfigProperty(name = "root_test")
